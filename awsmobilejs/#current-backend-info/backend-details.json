@@ -1,0 +1,165 @@
+{
+	"name": "AwsAmplifyLearningProject",
+	"projectId": "2e00e43d-1e18-41ef-bfc6-277de3548794",
+	"region": "eu-west-2",
+	"state": "NORMAL",
+	"createdDate": "2018-06-21T12:56:15.248Z",
+	"lastUpdatedDate": "2018-06-21T13:18:05.309Z",
+	"consoleUrl": "https://console.aws.amazon.com/mobilehub/home#/2e00e43d-1e18-41ef-bfc6-277de3548794/build",
+	"resources": [
+		{
+			"type": "AWS::Pinpoint::AnalyticsApplication",
+			"name": "awsamplifylearningproject_MobileHub",
+			"arn": "9c1f13d8d1a348d9a717cce94e786df1",
+			"feature": "analytics",
+			"attributes": {
+				"lastUpdateRequestID": "0ad3f374-4558-4249-8de8-5587388ef776"
+			}
+		},
+		{
+			"type": "AWS::IAM::Policy",
+			"name": "awsamplifylearningpr_mobileanalytics_MOBILEHUB_1885972200",
+			"arn": null,
+			"feature": "analytics",
+			"attributes": {
+				"authType": "authenticated",
+				"lastUpdateRequestID": "bfb85283-bcc3-4ba6-807d-e060aaac542e",
+				"role": "awsamplifylearningpr_auth_MOBILEHUB_1885972200"
+			}
+		},
+		{
+			"type": "AWS::IAM::Policy",
+			"name": "awsamplifylearningpr_mobileanalytics_MOBILEHUB_1885972200",
+			"arn": null,
+			"feature": "analytics",
+			"attributes": {
+				"authType": "unauthenticated",
+				"lastUpdateRequestID": "bfb85283-bcc3-4ba6-807d-e060aaac542e",
+				"role": "awsamplifylearningpr_unauth_MOBILEHUB_1885972200"
+			}
+		},
+		{
+			"type": "AWS::Cognito::IdentityPool",
+			"name": "awsamplifylearningpr_MOBILEHUB_1885972200",
+			"arn": "eu-west-2:d4e7192e-5f9f-477a-af32-38c056b7633f",
+			"feature": "user-signin",
+			"attributes": {
+				"lastUpdateRequestID": "bfb85283-bcc3-4ba6-807d-e060aaac542e",
+				"poolid": "eu-west-2:d4e7192e-5f9f-477a-af32-38c056b7633f",
+				"roleARNs": "arn:aws:iam::294711149028:role/awsamplifylearningpr_auth_MOBILEHUB_1885972200,arn:aws:iam::294711149028:role/awsamplifylearningpr_unauth_MOBILEHUB_1885972200"
+			}
+		},
+		{
+			"type": "AWS::IAM::Role",
+			"name": "awsamplifylearningpr_smsverification_MOBILEHUB_1885972200",
+			"arn": "arn:aws:iam::294711149028:role/service-role/awsamplifylearningpr_smsverification_MOBILEHUB_1885972200",
+			"feature": "user-signin",
+			"attributes": {
+				"lastUpdateRequestID": "bfb85283-bcc3-4ba6-807d-e060aaac542e",
+				"user-pools-role-key": "user-pools-execution-role"
+			}
+		},
+		{
+			"type": "AWS::Cognito::UserPool",
+			"name": "awsamplifylearningpr_userpool_MOBILEHUB_1885972200",
+			"arn": "eu-west-2_kjw7dtX5J",
+			"feature": "user-signin",
+			"attributes": {
+				"alias-attributes": "[\"email\",\"phone_number\"]",
+				"lastUpdateRequestID": "bfb85283-bcc3-4ba6-807d-e060aaac542e",
+				"mfa-configuration": "ON",
+				"password-policy": "{\"minimumLength\":8,\"requireUppercase\":true,\"requireLowercase\":true,\"requireNumbers\":true,\"requireSymbols\":true}",
+				"region": "eu-west-2",
+				"user-pools-client-id": "...redacted_-2127514427...",
+				"user-pools-client-secret": "...redacted_-1821043314...",
+				"user-pools-id": "eu-west-2_kjw7dtX5J",
+				"user-pools-web-client-id": "4487r1571777n6l2b6qo3cdqbq"
+			}
+		},
+		{
+			"type": "AWS::IAM::Role",
+			"name": "awsamplifylearningpr_auth_MOBILEHUB_1885972200",
+			"arn": "arn:aws:iam::294711149028:role/awsamplifylearningpr_auth_MOBILEHUB_1885972200",
+			"feature": "user-signin",
+			"attributes": {
+				"authType": "authenticated",
+				"lastUpdateRequestID": "bfb85283-bcc3-4ba6-807d-e060aaac542e"
+			}
+		},
+		{
+			"type": "AWS::IAM::Role",
+			"name": "awsamplifylearningpr_unauth_MOBILEHUB_1885972200",
+			"arn": "arn:aws:iam::294711149028:role/awsamplifylearningpr_unauth_MOBILEHUB_1885972200",
+			"feature": "user-signin",
+			"attributes": {
+				"authType": "unauthenticated",
+				"lastUpdateRequestID": "0ad3f374-4558-4249-8de8-5587388ef776"
+			}
+		},
+		{
+			"type": "AWS::S3::Bucket",
+			"name": "awsamplifylearningpr-hosting-mobilehub-1885972200",
+			"arn": null,
+			"feature": "hosting",
+			"attributes": {
+				"lastUpdateRequestID": "0ad3f374-4558-4249-8de8-5587388ef776",
+				"region": "eu-west-2",
+				"s3-bucket-console-url": "https://s3.console.aws.amazon.com/s3/buckets/awsamplifylearningpr-hosting-mobilehub-1885972200",
+				"s3-bucket-website-url": "https://s3.amazonaws.com/awsamplifylearningpr-hosting-mobilehub-1885972200"
+			}
+		},
+		{
+			"type": "AWS::CloudFront::Distribution",
+			"name": "d31yfm2w11pk9u.cloudfront.net",
+			"arn": null,
+			"feature": "hosting",
+			"attributes": {
+				"id": "E3SAMF4ABKK28U",
+				"lastUpdateRequestID": "0ad3f374-4558-4249-8de8-5587388ef776"
+			}
+		},
+		{
+			"type": "AWS::IAM::Policy",
+			"name": "awsamplifylearningpr_hosting_MOBILEHUB_1885972200",
+			"arn": null,
+			"feature": "hosting",
+			"attributes": {
+				"authType": "authenticated",
+				"lastUpdateRequestID": "bfb85283-bcc3-4ba6-807d-e060aaac542e",
+				"role": "awsamplifylearningpr_auth_MOBILEHUB_1885972200"
+			}
+		},
+		{
+			"type": "AWS::IAM::Policy",
+			"name": "awsamplifylearningpr_hosting_MOBILEHUB_1885972200",
+			"arn": null,
+			"feature": "hosting",
+			"attributes": {
+				"authType": "unauthenticated",
+				"lastUpdateRequestID": "bfb85283-bcc3-4ba6-807d-e060aaac542e",
+				"role": "awsamplifylearningpr_unauth_MOBILEHUB_1885972200"
+			}
+		},
+		{
+			"type": "AWS::S3::Bucket",
+			"name": "awsamplifylearningpr-deployments-mobilehub-1885972200",
+			"arn": null,
+			"feature": "common",
+			"attributes": {
+				"region": "eu-west-2",
+				"s3-bucket-console-url": "https://s3.console.aws.amazon.com/s3/buckets/awsamplifylearningpr-deployments-mobilehub-1885972200"
+			}
+		},
+		{
+			"type": "AWS::CloudFormation::Stack",
+			"name": "Development",
+			"arn": null,
+			"feature": "cloud-api",
+			"attributes": {
+				"primary": "true",
+				"region": "eu-west-2",
+				"stateSummary": "NOT_YET_DEPLOYED"
+			}
+		}
+	]
+}
