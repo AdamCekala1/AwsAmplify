@@ -22,9 +22,9 @@ const awsmobile = {
     'aws_resource_name_prefix': 'awsamplifylearningpr-mobilehub-1885972200',
     'aws_sign_in_enabled': 'enable',
     'aws_user_pools': 'enable',
-    'aws_user_pools_id': 'eu-west-2_kjw7dtX5J',
-    'aws_user_pools_mfa_type': 'ON',
-    'aws_user_pools_web_client_id': '4487r1571777n6l2b6qo3cdqbq',
+    'aws_user_pools_id': 'eu-west-2_vuXk60Fmt',
+    'aws_user_pools_mfa_type': 'OFF',
+    'aws_user_pools_web_client_id': '156sp69tmpb3qct3saod96n6ns',
 }
 
 export default awsmobile;

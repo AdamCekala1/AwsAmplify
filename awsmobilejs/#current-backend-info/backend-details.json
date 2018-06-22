@@ -4,7 +4,7 @@
 	"region": "eu-west-2",
 	"state": "NORMAL",
 	"createdDate": "2018-06-21T12:56:15.248Z",
-	"lastUpdatedDate": "2018-06-21T13:18:05.309Z",
+	"lastUpdatedDate": "2018-06-22T08:24:07.129Z",
 	"consoleUrl": "https://console.aws.amazon.com/mobilehub/home#/2e00e43d-1e18-41ef-bfc6-277de3548794/build",
 	"resources": [
 		{
@@ -23,7 +23,7 @@
 			"feature": "analytics",
 			"attributes": {
 				"authType": "authenticated",
-				"lastUpdateRequestID": "bfb85283-bcc3-4ba6-807d-e060aaac542e",
+				"lastUpdateRequestID": "07ebc76b-3d28-4e04-876c-e11d905ba8c0",
 				"role": "awsamplifylearningpr_auth_MOBILEHUB_1885972200"
 			}
 		},
@@ -34,7 +34,7 @@
 			"feature": "analytics",
 			"attributes": {
 				"authType": "unauthenticated",
-				"lastUpdateRequestID": "bfb85283-bcc3-4ba6-807d-e060aaac542e",
+				"lastUpdateRequestID": "07ebc76b-3d28-4e04-876c-e11d905ba8c0",
 				"role": "awsamplifylearningpr_unauth_MOBILEHUB_1885972200"
 			}
 		},
@@ -44,7 +44,7 @@
 			"arn": "eu-west-2:d4e7192e-5f9f-477a-af32-38c056b7633f",
 			"feature": "user-signin",
 			"attributes": {
-				"lastUpdateRequestID": "bfb85283-bcc3-4ba6-807d-e060aaac542e",
+				"lastUpdateRequestID": "3b75b15c-8bb7-4004-96f8-6bd44b03c867",
 				"poolid": "eu-west-2:d4e7192e-5f9f-477a-af32-38c056b7633f",
 				"roleARNs": "arn:aws:iam::294711149028:role/awsamplifylearningpr_auth_MOBILEHUB_1885972200,arn:aws:iam::294711149028:role/awsamplifylearningpr_unauth_MOBILEHUB_1885972200"
 			}
@@ -55,25 +55,25 @@
 			"arn": "arn:aws:iam::294711149028:role/service-role/awsamplifylearningpr_smsverification_MOBILEHUB_1885972200",
 			"feature": "user-signin",
 			"attributes": {
-				"lastUpdateRequestID": "bfb85283-bcc3-4ba6-807d-e060aaac542e",
+				"lastUpdateRequestID": "3b75b15c-8bb7-4004-96f8-6bd44b03c867",
 				"user-pools-role-key": "user-pools-execution-role"
 			}
 		},
 		{
 			"type": "AWS::Cognito::UserPool",
 			"name": "awsamplifylearningpr_userpool_MOBILEHUB_1885972200",
-			"arn": "eu-west-2_kjw7dtX5J",
+			"arn": "eu-west-2_vuXk60Fmt",
 			"feature": "user-signin",
 			"attributes": {
-				"alias-attributes": "[\"email\",\"phone_number\"]",
-				"lastUpdateRequestID": "bfb85283-bcc3-4ba6-807d-e060aaac542e",
-				"mfa-configuration": "ON",
-				"password-policy": "{\"minimumLength\":8,\"requireUppercase\":true,\"requireLowercase\":true,\"requireNumbers\":true,\"requireSymbols\":true}",
+				"alias-attributes": "[\"preferred_username\"]",
+				"lastUpdateRequestID": "3b75b15c-8bb7-4004-96f8-6bd44b03c867",
+				"mfa-configuration": "OFF",
+				"password-policy": "{\"minimumLength\":8,\"requireUppercase\":false,\"requireLowercase\":false,\"requireNumbers\":false,\"requireSymbols\":false}",
 				"region": "eu-west-2",
-				"user-pools-client-id": "...redacted_-2127514427...",
-				"user-pools-client-secret": "...redacted_-1821043314...",
-				"user-pools-id": "eu-west-2_kjw7dtX5J",
-				"user-pools-web-client-id": "4487r1571777n6l2b6qo3cdqbq"
+				"user-pools-client-id": "m92ln7kogiojd0ojh7lfsblet",
+				"user-pools-client-secret": "1h3ke9tqj2ac5gk53qdv3p11pd1fdnke5gk7anlrch0dqknor8ag",
+				"user-pools-id": "eu-west-2_vuXk60Fmt",
+				"user-pools-web-client-id": "156sp69tmpb3qct3saod96n6ns"
 			}
 		},
 		{
@@ -83,7 +83,7 @@
 			"feature": "user-signin",
 			"attributes": {
 				"authType": "authenticated",
-				"lastUpdateRequestID": "bfb85283-bcc3-4ba6-807d-e060aaac542e"
+				"lastUpdateRequestID": "3b75b15c-8bb7-4004-96f8-6bd44b03c867"
 			}
 		},
 		{
@@ -93,7 +93,7 @@
 			"feature": "user-signin",
 			"attributes": {
 				"authType": "unauthenticated",
-				"lastUpdateRequestID": "0ad3f374-4558-4249-8de8-5587388ef776"
+				"lastUpdateRequestID": "595a329d-49fe-411c-af86-b722bfe29972"
 			}
 		},
 		{
@@ -125,7 +125,7 @@
 			"feature": "hosting",
 			"attributes": {
 				"authType": "authenticated",
-				"lastUpdateRequestID": "bfb85283-bcc3-4ba6-807d-e060aaac542e",
+				"lastUpdateRequestID": "07ebc76b-3d28-4e04-876c-e11d905ba8c0",
 				"role": "awsamplifylearningpr_auth_MOBILEHUB_1885972200"
 			}
 		},
@@ -136,7 +136,7 @@
 			"feature": "hosting",
 			"attributes": {
 				"authType": "unauthenticated",
-				"lastUpdateRequestID": "bfb85283-bcc3-4ba6-807d-e060aaac542e",
+				"lastUpdateRequestID": "07ebc76b-3d28-4e04-876c-e11d905ba8c0",
 				"role": "awsamplifylearningpr_unauth_MOBILEHUB_1885972200"
 			}
 		},

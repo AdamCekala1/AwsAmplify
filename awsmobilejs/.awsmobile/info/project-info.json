@@ -4,16 +4,16 @@
 	"InitializationTime": "2018-06-21-14-57-04",
 	"LastConfigurationTime": "2018-06-21-14-52-42",
 	"LastNPMInstallTime": "",
-	"FrontendLastBuildTime": "",
-	"LastPublishTime": "",
-	"BackendLastSyncTime": "2018-06-21-15-18-12",
-	"BackendLastBuildTime": "2018-06-21-15-17-44",
-	"BackendLastPushTime": "2018-06-21-15-18-05",
+	"FrontendLastBuildTime": "2018-06-22-10-06-41",
+	"LastPublishTime": "2018-06-22-10-07-01",
+	"BackendLastSyncTime": "2018-06-22-10-44-09",
+	"BackendLastBuildTime": "2018-06-22-10-24-05",
+	"BackendLastPushTime": "2018-06-22-10-24-07",
 	"BackendProjectID": "2e00e43d-1e18-41ef-bfc6-277de3548794",
 	"BackendProjectName": "AwsAmplifyLearningProject",
 	"BackendProjectConsoleUrl": "https://console.aws.amazon.com/mobilehub/home#/2e00e43d-1e18-41ef-bfc6-277de3548794/build",
 	"BackendProjectCreationTime": "2018-06-21T12:56:15.248Z",
-	"BackendProjectLastUpdatedTime": "2018-06-21T13:18:05.309Z",
+	"BackendProjectLastUpdatedTime": "2018-06-22T08:24:07.129Z",
 	"Framework": "angular",
-	"BackendLastSyncToDevTime": "2018-06-21-15-18-12"
+	"BackendLastSyncToDevTime": "2018-06-22-10-44-13"
 }
