@@ -18,16 +18,6 @@ features:
     components:
       sign-in-user-pools: !com.amazonaws.mobilehub.v0.UserPoolsIdentityProvider 
         attributes:
-          alias-attributes:
-            - preferred_username
-          mfa-configuration: OFF
-          name: userpool
-          password-policy: !com.amazonaws.mobilehub.ConvertibleMap 
-            min-length: '8'
-            require-lower-case: false
-            require-numbers: false
-            require-symbols: false
-            require-upper-case: false
-          standard-attributes: '[]'
-name: AwsAmplifyLearningProject
+          user-pool-id: eu-west-2_1CSmdMXsF
+name: AmplifyTestApp-2018-06-25-11-25-11
 region: eu-west-2

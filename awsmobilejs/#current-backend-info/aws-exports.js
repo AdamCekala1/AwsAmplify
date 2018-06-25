@@ -7,24 +7,23 @@
 // AWS Mobile Hub Project Constants
 const awsmobile = {
     'aws_app_analytics': 'enable',
-    'aws_cognito_identity_pool_id': 'eu-west-2:d4e7192e-5f9f-477a-af32-38c056b7633f',
+    'aws_cognito_identity_pool_id': 'eu-west-2:373510c9-f52a-4d5f-886b-37870783e04b',
     'aws_cognito_region': 'eu-west-2',
     'aws_content_delivery': 'enable',
-    'aws_content_delivery_bucket': 'awsamplifylearningpr-hosting-mobilehub-1885972200',
+    'aws_content_delivery_bucket': 'amplifytestapp-hosting-mobilehub-849898523',
     'aws_content_delivery_bucket_region': 'eu-west-2',
     'aws_content_delivery_cloudfront': 'enable',
-    'aws_content_delivery_cloudfront_domain': 'd31yfm2w11pk9u.cloudfront.net',
-    'aws_mobile_analytics_app_id': '9c1f13d8d1a348d9a717cce94e786df1',
+    'aws_content_delivery_cloudfront_domain': 'd3op1juyqmkvaa.cloudfront.net',
+    'aws_mobile_analytics_app_id': '6a0fba50fb6c4954848b2236c1010941',
     'aws_mobile_analytics_app_region': 'us-east-1',
-    'aws_project_id': '2e00e43d-1e18-41ef-bfc6-277de3548794',
-    'aws_project_name': 'AwsAmplifyLearningProject',
+    'aws_project_id': 'fff8ac24-9af7-467c-bdd9-318e4bfc485b',
+    'aws_project_name': 'AmplifyTestApp-2018-06-25-11-25-11',
     'aws_project_region': 'eu-west-2',
-    'aws_resource_name_prefix': 'awsamplifylearningpr-mobilehub-1885972200',
+    'aws_resource_name_prefix': 'amplifytestapp-mobilehub-849898523',
     'aws_sign_in_enabled': 'enable',
     'aws_user_pools': 'enable',
-    'aws_user_pools_id': 'eu-west-2_vuXk60Fmt',
-    'aws_user_pools_mfa_type': 'OFF',
-    'aws_user_pools_web_client_id': '156sp69tmpb3qct3saod96n6ns',
+    'aws_user_pools_id': 'eu-west-2_1CSmdMXsF',
+    'aws_user_pools_web_client_id': '10i22egikkmdnutunr2jbk81uo',
 }
 
 export default awsmobile;

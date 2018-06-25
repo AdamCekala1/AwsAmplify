@@ -17,6 +17,7 @@ export class AuthService {
   }
 
   signUp(params: ISignUp) {
+    console.log('params', params)
     Auth.signUp(params)
       .then(data => console.log(data))
       .catch(err => console.log(err));
