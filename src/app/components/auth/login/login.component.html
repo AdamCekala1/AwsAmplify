@@ -15,12 +15,14 @@
              required>
     </mat-form-field>
   </form>
+  <div class="g-signin2" data-onsuccess="testapi()"></div>
+  <a class="g-signin2" href="#" (click)="testapi()">Sign in</a>
 </mat-card-content>
 <mat-card-actions>
   <button [disabled]="form.invalid"
           (click)="submit()"
           mat-button>Login</button>
-  <button (click)="testapi()"
+  <button (click)="test()"
           mat-button>test api</button>
 </mat-card-actions>
 

@@ -7,6 +7,8 @@
 // AWS Mobile Hub Project Constants
 const awsmobile = {
     'aws_app_analytics': 'enable',
+    'aws_cloud_logic': 'enable',
+    'aws_cloud_logic_custom': [{"id":"c9vh9kk2mj","name":"testoweAPI","description":"","endpoint":"https://c9vh9kk2mj.execute-api.eu-west-2.amazonaws.com/Development","region":"eu-west-2","paths":["/products","/products/123"]}],
     'aws_cognito_identity_pool_id': 'eu-west-2:373510c9-f52a-4d5f-886b-37870783e04b',
     'aws_cognito_region': 'eu-west-2',
     'aws_content_delivery': 'enable',
@@ -14,6 +16,9 @@ const awsmobile = {
     'aws_content_delivery_bucket_region': 'eu-west-2',
     'aws_content_delivery_cloudfront': 'enable',
     'aws_content_delivery_cloudfront_domain': 'd3op1juyqmkvaa.cloudfront.net',
+    'aws_dynamodb': 'enable',
+    'aws_dynamodb_all_tables_region': 'eu-west-2',
+    'aws_dynamodb_table_schemas': [{"tableName":"amplifytestapp-mobilehub-849898523-products","attributes":[{"name":"id","type":"S"},{"name":"carbo","type":"S"},{"name":"fat","type":"S"},{"name":"kcal","type":"S"},{"name":"name","type":"S"},{"name":"protein","type":"S"}],"indexes":[],"region":"eu-west-2","hashKey":"id"}],
     'aws_mobile_analytics_app_id': '6a0fba50fb6c4954848b2236c1010941',
     'aws_mobile_analytics_app_region': 'us-east-1',
     'aws_project_id': 'fff8ac24-9af7-467c-bdd9-318e4bfc485b',

@@ -6,14 +6,14 @@
 	"LastNPMInstallTime": "",
 	"FrontendLastBuildTime": "2018-06-25-12-08-40",
 	"LastPublishTime": "2018-06-25-12-09-00",
-	"BackendLastSyncTime": "2018-06-25-12-23-24",
-	"BackendLastBuildTime": "2018-06-25-12-08-15",
-	"BackendLastPushTime": "2018-06-25-12-08-17",
+	"BackendLastSyncTime": "2018-06-28-11-34-24",
+	"BackendLastBuildTime": "2018-06-28-11-32-49",
+	"BackendLastPushTime": "2018-06-28-11-34-13",
 	"BackendProjectID": "fff8ac24-9af7-467c-bdd9-318e4bfc485b",
 	"BackendProjectName": "AmplifyTestApp-2018-06-25-11-25-11",
 	"BackendProjectConsoleUrl": "https://console.aws.amazon.com/mobilehub/home#/fff8ac24-9af7-467c-bdd9-318e4bfc485b/build",
 	"BackendProjectCreationTime": "2018-06-25T09:25:16.732Z",
-	"BackendProjectLastUpdatedTime": "2018-06-25T10:17:00.914Z",
+	"BackendProjectLastUpdatedTime": "2018-06-28T09:33:17.653Z",
 	"Framework": "angular",
-	"BackendLastSyncToDevTime": "2018-06-25-13-04-36"
+	"BackendLastSyncToDevTime": "2018-06-28-11-34-41"
 }

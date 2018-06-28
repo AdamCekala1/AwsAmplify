@@ -5,6 +5,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatInputModule } from '@angular/material/input';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ReactiveFormsModule } from '@angular/forms';
+import { AmplifyAngularModule } from 'aws-amplify-angular';
 
 @NgModule({
   imports: [
@@ -14,7 +15,8 @@ import { ReactiveFormsModule } from '@angular/forms';
     MatInputModule,
     MatTabsModule,
     BrowserAnimationsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    AmplifyAngularModule
   ],
   exports: [
     MatCardModule,
@@ -22,7 +24,8 @@ import { ReactiveFormsModule } from '@angular/forms';
     MatInputModule,
     MatTabsModule,
     BrowserAnimationsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    AmplifyAngularModule
   ],
   declarations: []
 })
